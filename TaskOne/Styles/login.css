@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../imges/39587114-library-wallpapers.jpg');
+}
+.container{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    
+}
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2%;
+
+  }
+.background{
+    background: rgba(0, 0, 0, 0.7);;
+    color: white;
+    margin-top: 10em;
+    height: 40vh;
+ 
+}
+button{
+    background-color: #f00;
+    padding: 10px 80px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.caption{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.container a{
+    margin-top: 3px;
+    display: block;
+    
+}
+.container a:hover{
+    margin-top: 3px;
+    display: block;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}

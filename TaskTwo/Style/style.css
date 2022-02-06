@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.TopLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cls{
+    clear: both;
+}
+.nav ul li {
+    list-style: none;
+    float: right;
+  
+ }
+
+ul li a{
+    text-decoration: none;
+    width: 11em;
+    color: black;
+    display: block;
+    font-size:  15px;
+    text-align: center;
+    font-weight: bold;
+
+}
+li:first-child a {
+    color: Red;
+ }
+ .TopRightNav{
+     position: absolute;
+     top :3em;
+     right: 15%;
+     /* background-color: red; */
+     width: 20%;
+ }
+ .TopRightNav p{
+  text-align: center;
+ }
+.phone{
+    float: left;
+   }
+.phone2{
+    float: right;
+}
+
+/* Second Nav */
+
+.nav2{
+    position: absolute;
+    top:10em;
+    left: 0em;
+    /* width: 100%; */
+    width: 47%;
+}
+
+.nav2 a{
+    float: left;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px 2em;
+    font-size: 1em;
+    /* border: 3px black; */
+    /* width: 100%; */
+    font-weight: bold;
+    border: 1px solid black;
+
+}
+.nav2 a:last-child{
+  /* float: right; */
+  /* width: 50%; */
+  background-color: 
+  #ffa500;
+
+}
+#MORE{
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+}
+.StartOrder{
+    width: 54%;
+    margin-top: 6em;
+    border: 1px solid black;
+    padding: 29px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;  
+    background-color: #c8102e;
+    border-radius: 1em;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+	box-shadow: -6px 1px 10px -1px rgba(152, 165, 214, 0.63);
+}
+.StartOrder a{
+    text-decoration: none;
+    color: white;
+
+
+   
+}
+
+/* end of secodn navbar */
+.Pizza_IMG{
+    background-image: url('../images/3.png');
+    background-position: center;
+    background-size: 100%;
+
+    height: 45vh;
+    position: relative;
+    top: 131px;
+    background-repeat: no-repeat;
+}
+/* bottom Nav on the Pizza */
+.bottom_nav{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 5vh;
+    /* bottom: 0; */
+    top: 71.5%;
+}
+.bottom_nav ul{
+    list-style-type: none;  
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 1%;
+    
+}
+.bottom_nav ul li {
+    float: left;
+    margin-top: 2px;
+}
+.bottom_nav ul li a{
+    text-align: center;
+    width: 135px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding:  10px;
+
+}
+
+.bottom_nav ul li a:hover{
+   border-bottom: 2px solid red;
+
+}
+
+/* end of third nav bar */
+.third_sec{
+    background-color: rgba(232,232,232,255);
+    position: relative;
+ 
+}
+.container{
+    margin: auto;
+    text-align: center;
+    width: 99%;
+    
+}
+
+
+/* Start Content */
+
+.container{
+    margin: auto;
+    text-align: center;
+    
+}
+.firstSection{
+    position: relative;
+    margin-top:4.5em;
+    margin-left: 4em;
+}
+
+.mydiv{
+    width: 650px;
+    height: 290px;
+    background-color: white;
+    color: Black;
+    position: relative;
+    float: left;
+    margin-right: 3em;
+    margin-top: 40px;
+    
+}
+.mydiv h3{
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+}
+.mydiv p {
+    font-size: larger;
+    font-weight: bold;
+}
+#Medium,#Pan{
+    padding: 5px;
+}
+#Medium , #Add2Cart{
+    margin-left: 2em;
+}
+#Add2Cart,#custom{
+    margin-top: 1em;
+    padding:7px 15px;
+    border-radius: 8px;
+}
+#custom{
+    background-color: black;
+    color: white;
+}
+#Add2Cart{
+    color: white;
+    background-color: red;
+
+}
+#first_img{
+ position: absolute;
+  width: 60%;
+  right: 2%;
+  text-align: left;
+}
+#second_img{
+    position: absolute;
+    width: 45%;
+    height: 70%;
+}
+.cls{
+    clear: both;
+}
+#second_img h2{
+    font-size: 2em;
+  
+}
